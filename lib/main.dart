@@ -1,8 +1,6 @@
 import 'package:cris_crass_game/splash_screen.dart';
 import 'package:flutter/material.dart';
 
-import 'game_page.dart';
-
 void main() {
   runApp(const MyApp());
 }
@@ -13,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'Criss Cross',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
