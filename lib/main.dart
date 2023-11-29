@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Criss Cross',
+      title: 'CrisCrass',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
